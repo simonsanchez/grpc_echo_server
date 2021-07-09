@@ -7,7 +7,7 @@ import (
 	"net"
 	"time"
 
-	pb "github.com/simonsanchez/grpc_echo_proto_two/generated"
+	pb "github.com/simonsanchez/grpc_echo_proto_two/v2/generated"
 	"google.golang.org/grpc"
 )
 
@@ -38,5 +38,10 @@ func (s *server) Foo(ctx context.Context, in *pb.EchoRequest) (*pb.EchoResponse,
 
 func (s *server) Bar(ctx context.Context, in *pb.EchoRequest) (*pb.EchoResponse, error) {
 	fmt.Println("bar -- " + time.Now().String())
+	return &pb.EchoResponse{Message: in.GetMessage()}, nil
+}
+
+func (s *server) Baz(ctx context.Context, in *pb.EchoRequest) (*pb.EchoResponse, error) {
+	fmt.Println("baz -- " + time.Now().String())
 	return &pb.EchoResponse{Message: in.GetMessage()}, nil
 }
