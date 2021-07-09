@@ -35,3 +35,8 @@ func (s *server) Foo(ctx context.Context, in *pb.EchoRequest) (*pb.EchoResponse,
 	fmt.Println("foo -- " + time.Now().String())
 	return &pb.EchoResponse{Message: in.GetMessage()}, nil
 }
+
+func (s *server) Bar(ctx context.Context, in *pb.EchoRequest) (*pb.EchoResponse, error) {
+	fmt.Println("bar -- " + time.Now().String())
+	return &pb.EchoResponse{Message: in.GetMessage()}, nil
+}

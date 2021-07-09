@@ -46,6 +46,8 @@ github.com/simonsanchez/grpc_echo_proto_two v0.1.0 h1:WNjEo9f7UJqRuTFEcpGAL/PxST
 github.com/simonsanchez/grpc_echo_proto_two v0.1.0/go.mod h1:q65URMJmXQFphuCZYDUcFZUWRAwuuBpFjDk3dU1MOG0=
 github.com/simonsanchez/grpc_echo_proto_two v0.2.0 h1:45naCl79CQArvEJfCL4hQH4uAwYA4yAzbIuO+RmDh6g=
 github.com/simonsanchez/grpc_echo_proto_two v0.2.0/go.mod h1:q65URMJmXQFphuCZYDUcFZUWRAwuuBpFjDk3dU1MOG0=
+github.com/simonsanchez/grpc_echo_proto_two v1.0.0 h1:0/tX2YWWrMjqypYHt8Kcphw7s7lVYz/+rYg0OKFIso4=
+github.com/simonsanchez/grpc_echo_proto_two v1.0.0/go.mod h1:q65URMJmXQFphuCZYDUcFZUWRAwuuBpFjDk3dU1MOG0=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.5.1/go.mod h1:5W2xD1RspED5o8YsWQXVCued0rvSQ+mT+I5cxcmMvtA=
 go.opentelemetry.io/proto/otlp v0.7.0/go.mod h1:PqfVotwruBrMGOCsRd/89rSnXhoiJIqeYNgFYFoEGnI=
